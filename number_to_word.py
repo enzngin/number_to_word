@@ -54,6 +54,6 @@ def returnFinalWord(number): #Üçlü parçalara ayrılıp liste haline getirile
         word = " ".join(list)
         return word
 
-x = int(input("Okunuşunu görmek istediğiniz sayıyı girin: "))
+x = int(input("Okunuşunu görmek istediğiniz sayıyı giriniz: "))
 print(returnFinalWord(x))
 
